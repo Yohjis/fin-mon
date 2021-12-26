@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<h2>List of cards</h2>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>cardMusk</th>
+        <th>password</th>
+    </tr>
+
+    <tr th:each="card : ${cards}">
+        <td th:text="${cards.id}">Id</td>
+        <td th:text="${cards.cardMusk}">cardMusk</td>
+        <td th:text="${cards.password}">password</td>
+    </tr>
+</table>
+
+</body>
+</html>
