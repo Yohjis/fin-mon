@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.jpa.database-platform.hibernate.ddl-auto",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.database-platform.hibernate.ddl-auto."
+    },
+    {
+      "name": "spring.jpa.database-platform.hibernate.ddl",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.database-platform.hibernate.ddl."
+    }
+  ] }
